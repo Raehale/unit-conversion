@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #F4F4F4;
+}
+
+/***PURPLE HEADER SECTION***/
+header {
+    background-color: #6943FF;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+input {
+    background-color: #6943FF;
+    border-radius: 4px;
+    border: 2px solid #B295FF;
+    font-size: 58px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 120px;
+    display: block;
+    margin: 5px auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,.4);
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: #3D3D3D;
+    margin: 10px;
+}
+
+
+/***MAIN BOXES SECTION***/
+.converted-box {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 5px 10px;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #5A537B;
+}
+
+p {
+    color: #353535;
+}
