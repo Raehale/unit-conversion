@@ -19,7 +19,6 @@ function lengthConversion(number) {
     const feet = (number * 3.28084).toFixed(3);
     const meters = (number / 3.28084).toFixed(3);
     lengthConvertedText.textContent = `${number} meters = ${feet} feet | ${number} feet = ${meters} meters`;
-    console.log(lengthConvertedText);
 }
 
 /***CONVERT VOLUME */
@@ -28,7 +27,6 @@ function volumeConversion(number) {
     const gallons = (number * 0.264).toFixed(3);
     const liters = (number / 0.264).toFixed(3);
     volumeConvertedText.textContent = `${number} liters = ${gallons} gallons | ${number} gallons = ${liters} liters`;
-    console.log(lengthConvertedText);
 }
 
 /***CONVERT MASS */
@@ -37,5 +35,4 @@ function massConversion(number) {
     const pounds = (number * 2.204).toFixed(3);
     const kilos = (number / 2.204).toFixed(3);
     massConvertedText.textContent = `${number} kilos = ${pounds} pounds | ${number} pounds = ${kilos} kilos`;
-    console.log(lengthConvertedText);
 }
